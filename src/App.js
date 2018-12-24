@@ -5,7 +5,7 @@ import { Header } from './components/common';
 
 const App = () => {
     return (
-        // <Provider store={store}>
+        // <Provider store={() => []} >
             <Fragment>
                 <Header headerText={'This is some text'} />
             </Fragment>

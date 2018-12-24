@@ -5,11 +5,11 @@ import { Header } from './components/common';
 
 const App = () => {
     return (
-        // <Provider store={() => []} >
+        <Provider store={createStore(() => [])} >
             <Fragment>
                 <Header headerText={'This is some text'} />
             </Fragment>
-        // </Provider>
+        </Provider>
     );
 };
 
